@@ -1,0 +1,550 @@
+
+body {
+    height: 100vh;
+    background: linear-gradient(180deg, #12F4A3 0%, #A8B1FF 100%);
+    align-items: center;
+}
+
+#logomybatch {
+    height: 15vh;
+}
+
+#fixe {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+header { 
+    
+    width: 100%;
+    height: 10vh;
+    background-color: #f9f9f9;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+    padding-top: 3px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+}
+
+.logoFrigo {
+    height: 7vh;
+}
+
+.iconesnav {
+   height: 10vh;
+}
+
+.icones {
+    height: 4vw;
+} 
+
+#batching {
+    margin-top: 50px;
+    /* background-color: rgb(192, 19, 207); */
+    width:60vh; 
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#semaine {
+    /* background-color: aqua; */
+    width:50%;
+    height: 100%;
+    display: flex;
+    align-items: space-between; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.jour{
+    max-width: 48%;
+    max-height: 23%;
+    width: 50%;
+    height: 25%;
+    border-radius: 11px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px double #f9f9f9;
+    color: rgba(168, 177, 255, 0.6);
+    font-size: 6vh;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#edit2 {
+    width:48%;
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#ajouter {
+    display: none
+}
+
+#ajouter2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2.5vh;
+    padding-left: 7px;
+    padding-top: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #f9f9f9;
+}
+
+.boutonadd {
+    max-height: 70%;
+    height: 70%;
+}
+
+/*-----------------------------------------------*/
+
+#barrefrigo {
+    width: 100%;
+}
+
+#frigo {
+    margin-top: 50px;
+    width: 37vh;
+    height: 64%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #F9F9F9;
+}
+
+#topfrigo {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    border: solid;
+    border-color: #F9F9F9;
+    border-width: 6px;
+    border-radius: 30px 30px 0px 0px;
+    font-size: 4vh;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#midfrigo {
+    display: flex;
+    margin-top: 6px;
+    width: 100%;
+    height: 20%;
+    border: solid;
+    border-color: #F9F9F9;
+    border-width: 6px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    font-size: 1.5vh;
+}
+
+#basfrigo {
+    margin-top: 6px;
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: space-between; 
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#frigog {
+
+    margin-right: 3px;
+    width: 45%;
+    height: 50%;
+    border-radius: 5px ;
+    border: solid;
+    border-color: #F9F9F9;
+    border-width: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 0px 30px; 
+}
+
+#frigod {
+    margin-left: 3px;
+    width: 45%;
+    height: 50%;
+    border-radius: 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: #F9F9F9;
+    border-width: 8px;
+    border-radius: 0px 0px 30px 0px; 
+   
+}
+
+#formatmobile {
+    display: none;
+}
+
+#headermobile {
+    display: none;
+}
+
+#navmobile {
+    display: none;
+}
+
+
+
+@media screen and (max-width :1080px) {
+
+
+    #logomybatch {
+        height: 12vh;
+    }
+
+
+    header { 
+        
+        padding-bottom: 0px;
+        width: 100%;
+        height: 10vh;
+        background-color: #F9F9F9;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        gap: 10px;
+        padding-top: 3px;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;  
+        gap:5px;  
+    }
+
+    .logoFrigo {
+        height: 7vh;
+    }
+
+    .iconesnav {
+        height: 11vw;
+    }
+
+    .icones {
+        height: 7vw;
+    } 
+
+    #fixe {
+        display: flex;
+        width: 100%;
+        max-height: 100%;
+        justify-content:flex-start;
+        align-items:center;
+        flex-direction: column;
+    }
+
+    #batching {
+        margin-top: 20px;
+        /*background-color: rgb(192, 19, 207); */
+        max-height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #semaine {
+       /* background-color: aqua; */ 
+        width:50%;
+        height: 100%;
+        display: flex;
+        align-items: space-between; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .jour{
+        max-width: 48%;
+        max-height: 24%;
+        width: 50%;
+        height: 25%;
+        border-radius: 11px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px double #f9f9f9;
+        color: rgba(168, 177, 255, 0.6);
+        font-size: 6vh;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+
+    #edit2 {
+        height: 25%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    #ajouter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+        font-size: 3vh;
+        padding-left: 10px;
+        padding-top: 12px;
+        transition: all 0.5s;
+        cursor: pointer;
+        color: #f9f9f9;
+    }
+
+    #ajouter2 {
+        display: none;
+    }
+
+    .boutonadd {
+        max-width: 10%;
+    }
+
+    
+    /*-----------------------------------------------*/
+
+    #barrefrigo {
+        display: none;
+    }
+
+    #frigo {
+        display: none;
+    }
+
+    #topfrigo {
+        display: none;
+    }
+
+    #midfrigo {
+        display: none;
+    }
+
+    #basfrigo {
+        display: none;
+    }
+
+    #frigog {
+        display: none;
+    }
+
+    #frigod {
+        display: none;
+    }
+
+    #formatmobile {
+        display: none;
+    }
+
+    #headermobile {
+        display: none;
+    }
+
+    #navmobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width :800px) {
+
+
+
+    #logomybatch {
+        height: 15vh;
+    }
+
+
+    header { 
+        
+        padding-bottom: 0px;
+        width: 100%;
+        height: 10vh;
+        background-color: #F9F9F9;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        gap: 10px;
+        padding-top: 3px;
+    }
+
+
+    nav {
+       display: none;  
+    }
+
+    #formatmobile {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        background-color: #A8B1FF;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+    }
+
+
+    #headermobile {
+        width: 80%;
+        height: 10vh;
+        background-color: #F9F9F9;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        padding-top: 3px;
+        color: #7AC6E3;
+    }
+
+    #navmobile {
+        display: flex;
+        width: 80%;
+    }
+
+    #navmobilelogo {
+        padding-top: 15px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .lfrigo {
+        max-width: 25%;
+        min-width: 25%;
+    }
+
+    .navbar {
+        min-width: 7vh;
+        position: absolute;
+    }
+
+    .icones {
+        height: 7vw;
+    } 
+
+    #fixe {
+        display: flex;
+        width: 100%;
+        max-height: 100%;
+        justify-content:flex-start;
+        align-items:center;
+        flex-direction: column;
+    }
+
+    #batching {
+        margin-top: 50px;
+        max-height: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #semaine {
+        width:100%;
+        height: 100%;
+        display: absolute;
+        align-items: space-between; 
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .jour{
+        max-width: 24%;
+        max-height: 48%;
+        width: 24%;
+        height: 48%;
+        border-radius: 11px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px double #f9f9f9;
+        color: rgba(168, 177, 255, 0.6);
+        font-size: 6vh;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+
+    #edit2 {
+        height: 49%;
+        width: 24%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    #ajouter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+        font-size: 2.5vh;
+        padding-left: 10px;
+        padding-top: 25px;
+        transition: all 0.5s;
+        cursor: pointer;
+        color: #f9f9f9;
+    }
+
+    #ajouter2 {
+        display: none;
+    }
+
+    #barrefrigo {
+        display: none;
+    }
+
+    #frigo {
+        display: none;
+    }
+
+    #topfrigo {
+        display: none;
+    }
+
+    #midfrigo {
+        display: none;
+    }
+
+    #basfrigo {
+        display: none;
+    }
+
+    #frigog {
+        display: none;
+    }
+
+    #frigod {
+        display: none;
+    }
+
+}
